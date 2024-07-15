@@ -3,13 +3,23 @@
 
 ## Descrição do Projeto
 
-Conforme se depreende das reportagens extraídas dos números 67 e 68 da Revista Sorria, e ao analisar outros dados da revista do ponto de vista do modelo de negócio, chega-se à fácil conclusão de que estamos diante de um produto de grande sucesso. De acordo com as informações disponibilizadas pela editora Mol, são mais de 11.158.621 exemplares vendidos em todo o território nacional ao longo dos 10 anos de parceria entre a editora, a Drogaria Raia e o Hospital GRAACC, totalizando mais de 21 milhões de reais em doações que proporcionaram tratamento digno a milhares de pacientes e, além disso, permitiram a construção e modernização de uma ala inteira do hospital.
+A Revista Sorria, uma parceria de sucesso entre a Drogaria Raia e o Hospital GRAACC, impactou positivamente a vida de milhares de pacientes, arrecadando mais de 21 milhões de reais em doações. Para garantir a continuidade desse sucesso em um mercado em constante transformação, este projeto propõe uma solução inovadora: um sistema de gestão de relacionamento com o cliente (CRM) baseado em uma aplicação mobile.
 
-Outros elementos, como o prêmio de empreendedor social do ano de 2018, atestam o sucesso do empreendimento que fortalece outras instituições com os valores arrecadados, distribuindo os R$4,20 do valor de capa entre custos de produção, impostos e doação efetiva para as instituições parceiras.
+Oportunidade
+A revista, com mais de 11 milhões de exemplares vendidos em 10 anos, possui um público fiel e engajado. No entanto, o mercado de revistas impressas enfrenta desafios crescentes. A criação de um CRM mobile oferece a oportunidade de fortalecer o relacionamento com os leitores, proporcionando uma experiência digital interativa e personalizada.
 
-Entretanto, o sucesso de um empreendimento deve ser cultivado constantemente para que não seja efêmero. Casos como os da Xerox, IBM, Sears, Kodak, entre outras empresas de grande sucesso, são debatidos exaustivamente nos cursos de tecnologia da informação e administração como exemplos de que boas ideias e boa gestão não bastam para perpetuar o sucesso de uma iniciativa. É preciso observar tendências e apostar sempre em inovação para que uma iniciativa de sucesso não perca seu lugar de mercado, especialmente em se tratando de revistas impressas, um setor que enfrenta bastante instabilidade.
+Solução
+Através de um QR code impresso na revista, os leitores terão acesso a:
 
-Diante desse cenário, a Pueraba Business Intelligence enxerga uma oportunidade de negócio ao oferecer à Revista Sorria um complemento ao seu modelo atual, baseado em uma aplicação mobile escalável e disponível a todos os compradores da revista física. A proposta é a criação de um sistema de gestão de relacionamento com o cliente da Revista Sorria, onde, através de um QR code impresso na última página de cada edição, o cliente possa acessar os melhores conteúdos dos 10 anos da publicação, interagir com autores e entrevistados, além de outros leitores, ver vídeos do hospital GRAACC e das outras ONGs atendidas pela revista em um ambiente semelhante a uma rede social, com feed de notícias e anúncios monetizados de empresas parceiras.
+Conteúdo Exclusivo: Melhores conteúdos dos 10 anos da revista, incluindo artigos, entrevistas e reportagens.
+Interação: Espaço para interagir com autores, entrevistados e outros leitores, fomentando uma comunidade engajada.
+Vídeos: Acesso a vídeos do Hospital GRAACC e outras ONGs parceiras, mostrando o impacto das doações.
+Feed de Notícias: Um feed personalizado com notícias relevantes e anúncios de empresas parceiras, gerando receita adicional.
+Benefícios
+Fortalecimento do Relacionamento: Criação de um canal direto e personalizado com os leitores, aumentando o engajamento e a fidelidade.
+Geração de Receita: Possibilidade de monetização através de anúncios e parcerias com empresas.
+Visibilidade para o GRAACC: Maior visibilidade para o trabalho do Hospital GRAACC e outras ONGs, incentivando novas doações.
+Inovação: Posicionamento da Revista Sorria como pioneira na adoção de tecnologias digitais no mercado de revistas.
 
 ## 🎓 Trabalho de Conclusão de Curso (TCC)
 
