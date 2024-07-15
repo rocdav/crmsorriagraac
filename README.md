@@ -5,21 +5,31 @@
 
 A Revista Sorria, uma parceria de sucesso entre a Drogaria Raia e o Hospital GRAACC, impactou positivamente a vida de milhares de pacientes, arrecadando mais de 21 milhões de reais em doações. Para garantir a continuidade desse sucesso em um mercado em constante transformação, este projeto propõe uma solução inovadora: um sistema de gestão de relacionamento com o cliente (CRM) baseado em uma aplicação mobile.
 
-Oportunidade
+## Oportunidade
+
 A revista, com mais de 11 milhões de exemplares vendidos em 10 anos, possui um público fiel e engajado. No entanto, o mercado de revistas impressas enfrenta desafios crescentes. A criação de um CRM mobile oferece a oportunidade de fortalecer o relacionamento com os leitores, proporcionando uma experiência digital interativa e personalizada.
 
-Solução
+## Solução
+
 Através de um QR code impresso na revista, os leitores terão acesso a:
 
-Conteúdo Exclusivo: Melhores conteúdos dos 10 anos da revista, incluindo artigos, entrevistas e reportagens.
-Interação: Espaço para interagir com autores, entrevistados e outros leitores, fomentando uma comunidade engajada.
-Vídeos: Acesso a vídeos do Hospital GRAACC e outras ONGs parceiras, mostrando o impacto das doações.
-Feed de Notícias: Um feed personalizado com notícias relevantes e anúncios de empresas parceiras, gerando receita adicional.
-Benefícios
-Fortalecimento do Relacionamento: Criação de um canal direto e personalizado com os leitores, aumentando o engajamento e a fidelidade.
-Geração de Receita: Possibilidade de monetização através de anúncios e parcerias com empresas.
-Visibilidade para o GRAACC: Maior visibilidade para o trabalho do Hospital GRAACC e outras ONGs, incentivando novas doações.
-Inovação: Posicionamento da Revista Sorria como pioneira na adoção de tecnologias digitais no mercado de revistas.
+## Conteúdo Exclusivo: 
+Melhores conteúdos dos 10 anos da revista, incluindo artigos, entrevistas e reportagens.
+## Interação: 
+Espaço para interagir com autores, entrevistados e outros leitores, fomentando uma comunidade engajada.
+## Vídeos: 
+Acesso a vídeos do Hospital GRAACC e outras ONGs parceiras, mostrando o impacto das doações.
+## Feed de Notícias: 
+Um feed personalizado com notícias relevantes e anúncios de empresas parceiras, gerando receita adicional.
+## Benefícios: 
+## Fortalecimento do Relacionamento: 
+Criação de um canal direto e personalizado com os leitores, aumentando o engajamento e a fidelidade.
+## Geração de Receita: 
+Possibilidade de monetização através de anúncios e parcerias com empresas.
+## Visibilidade para o GRAACC: 
+Maior visibilidade para o trabalho do Hospital GRAACC e outras ONGs, incentivando novas doações.
+## Inovação: 
+Posicionamento da Revista Sorria como pioneira na adoção de tecnologias digitais no mercado de revistas.
 
 ## 🎓 Trabalho de Conclusão de Curso (TCC)
 
