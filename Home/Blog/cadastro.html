@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Cadastro de Doador - CRM SORRIA GRAACC</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/blog-post.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-rss {
+      background: #ff6600;
+      color: white;
+    }
+  </style>
+
+</head>
+
+<body class="bg-secondary">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-blue fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="/index.html">CRM SORRIA GRAACC</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"> <a class="nav-link" href="/index.html" target="_self">HOME<span class="sr-only">(current)</span> </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="/index.html#about">SOBRE</a></li>
+          <li class="nav-item"> <a class="nav-link" href="/index.html#contact">CONTATO</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Blog/crm.html">CRM</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-12 bg-white p-4 rounded">
+        <h2 class="text-center">Cadastro de Doador</h2>
+        <form id="cadastroForm">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu email" required>
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input type="tel" class="form-control" id="telefone" placeholder="Digite seu telefone" required>
+          </div>
+          <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" class="form-control" id="senha" placeholder="Digite sua senha" required>
+          </div>
+          <button type="button" class="btn btn-primary btn-block" onclick="cadastrarDoador()">Cadastrar</button>
+        </form>
+        <div id="mensagem" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">©2019 - O CONTEÚDO DOS ARTIGOS BEM COMO SEUS DIREITOS DE DIVULGAÇÃO PERTENCEM A REVISTA SORRIA - EDITORAL MOL. A PÁGINA FOI PRODUZIDA COM FINS EXCLUSIVAMENTE ACADÊMICOS, VISANDO APRESENTAR UMA SOLUÇÃO AO DESAFIO DO GRAACC PARA OS ALUNOS DE BANCO DE DADOS DA FIAP.</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    function cadastrarDoador() {
+      const nome = document.getElementById('nome').value;
+      const email = document.getElementById('email').value;
+      const telefone = document.getElementById('telefone').value;
+      const senha = document.getElementById('senha').value;
+
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', 'cadastro.php', true);
+      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+      xhr.onreadystatechange = function() {
+        if (xhr.readyState == 4) {
+          const mensagemDiv = document.getElementById('mensagem');
+          if (xhr.status == 200) {
+            mensagemDiv.innerText = xhr.responseText;
+            mensagemDiv.className = 'alert alert-success';
+          } else {
+            mensagemDiv.innerText = 'Erro ao tentar cadastrar: ' + xhr.statusText;
+            mensagemDiv.className = 'alert alert-danger';
+          }
+        }
+      };
+      xhr.send('nome=' + encodeURIComponent(nome) + '&email=' + encodeURIComponent(email) + '&telefone=' + encodeURIComponent(telefone) + '&senha=' + encodeURIComponent(senha));
+    }
+  </script>
+
+</body>
+
+</html>
